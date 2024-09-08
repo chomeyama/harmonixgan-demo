@@ -92,7 +92,6 @@ Section
 
 .section {
   width: 97%;
-  min-width: 480px;
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -144,7 +143,6 @@ Section
 #citation {
   position: relative;
   width: 80%;
-  min-width: 480px;
   border: thin solid var(--font-color2);
   border-radius: 0.25rem;
   margin: 1.5rem auto;
@@ -199,7 +197,6 @@ figcaption {
 
 img {
   width: 100%;
-  min-width: 480px;
   height: auto;
   margin: auto;
 }
@@ -233,7 +230,6 @@ img {
 
 .selects {
   width: 75%;
-  min-width: 480px;
   margin: 0 auto;
 }
 
