@@ -7,11 +7,11 @@
     <meta name=”twitter:card” content=”summary“>
     <meta name=”twitter:site” content=”@ricepamo“>
     <meta property='og:type' content="website">
-    <meta property='og:title' content="HarmonixGAN Demo">
-    <meta property='og:url' content="https://chomeyama.github.io/HarmonixGAN-Demo/">
-    <meta property='og:description' content="HarmonixGAN Demo">
-    <meta name="description" content="HarmonixGAN Demo">
-    <title>HarmonixGAN</title>
+    <meta property='og:title' content="Wavehax Demo">
+    <meta property='og:url' content="https://chomeyama.github.io/Wavehax-Demo/">
+    <meta property='og:description' content="Wavehax Demo">
+    <meta name="description" content="Wavehax Demo">
+    <title>Wavehax</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
@@ -26,9 +26,9 @@
       <div class="main">
 
         <div class="paper_info">
-          <h1>HarmonixGAN</h1>
-          <h2>Alias-Free Neural Waveform Synthesis Based on Complex Spectrogram Estimation with 2D Convolution and
-            Harmonic Prior</h2>
+          <h1>Wavehax</h1>
+          <h2>Alias-Free Neural Waveform Synthesis with 2D Convolution and Harmonic Prior for Reliable Complex
+            Spectrogram Estimation</h2>
           <h3 style="margin-top: 1rem;">
             <a class="link" href="https://chomeyama.github.io/Profile/">Reo Yoneyama</a><sup>1</sup>,
             <a class="link" href="https://www.toda.is.i.nagoya-u.ac.jp/members.html">Atsushi Miyashita</a><sup>1</sup>,
@@ -48,7 +48,7 @@
             </a>
           </div>
           <div class="icon-box">
-            <a class="link" href="https://github.com/chomeyama/harmonixgan"><i class="fa-brands fa-github"></i>
+            <a class="link" href="https://github.com/chomeyama/wavehax"><i class="fa-brands fa-github"></i>
               <p>Code</p>
             </a>
           </div>
@@ -95,7 +95,7 @@
               var set_id = document.getElementById('set_id');
               set_id.options[set_id.selectedIndex].selected = true;
               const methods = [
-                "natural", "pwg", "pwg.sine", "pwg.har", "pwg*", "pwg*.sine", "pwg*.har", "hifigan", "hifigan.sine", "hifigan.har", "hifigan*", "hifigan*.sine", "hifigan*.har", "vocos", "vocos.sine", "vocos.har", "hxgan.har"
+                "natural", "pwg", "pwg.sine", "pwg.har", "pwg*", "pwg*.sine", "pwg*.har", "hifigan", "hifigan.sine", "hifigan.har", "hifigan*", "hifigan*.sine", "hifigan*.har", "vocos", "vocos.sine", "vocos.har", "wavehax.har"
               ];
 
               if (set_id.value === "set1") {
@@ -408,18 +408,18 @@
               </tr>
 
               <tr>
-                <td style="text-align: left" class="td_fixed">HarmonixGAN</td>
-                <td style="text-align: center"><audio id="hxgan.har_0"
-                    src="samples/hxgan.har/jvs003_parallel100_VOICEACTRESS100_050.wav" controls="" preload=""></audio>
+                <td style="text-align: left" class="td_fixed">Wavehax</td>
+                <td style="text-align: center"><audio id="wavehax.har_0"
+                    src="samples/wavehax.har/jvs003_parallel100_VOICEACTRESS100_050.wav" controls="" preload=""></audio>
                 </td>
-                <td style="text-align: center"><audio id="hxgan.har_1"
-                    src="samples/hxgan.har/jvs041_falset10_VOICEACTRESS100_005.wav" controls="" preload=""></audio>
+                <td style="text-align: center"><audio id="wavehax.har_1"
+                    src="samples/wavehax.har/jvs041_falset10_VOICEACTRESS100_005.wav" controls="" preload=""></audio>
                 </td>
-                <td style="text-align: center"><audio id="hxgan.har_2"
-                    src="samples/hxgan.har/jvs010_parallel100_VOICEACTRESS100_077.wav" controls="" preload=""></audio>
+                <td style="text-align: center"><audio id="wavehax.har_2"
+                    src="samples/wavehax.har/jvs010_parallel100_VOICEACTRESS100_077.wav" controls="" preload=""></audio>
                 </td>
-                <td style="text-align: center"><audio id="hxgan.har_3"
-                    src="samples/hxgan.har/jvs065_whisper10_VOICEACTRESS100_003.wav" controls="" preload=""></audio>
+                <td style="text-align: center"><audio id="wavehax.har_3"
+                    src="samples/wavehax.har/jvs065_whisper10_VOICEACTRESS100_003.wav" controls="" preload=""></audio>
                 </td>
               </tr>
             </tbody>
